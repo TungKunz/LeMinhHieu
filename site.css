@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+:root {
+    --container-full-width:100%;
+    --container-width: 1150px;
+
+}
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.container-full {
+    width: var(--container-full-width);
+
+}
+.container {
+    width: var(--container-width);
+    margin:auto;
+
+}
+.header, .header a {
+    color:#fff;
+}
+.header-top {
+    height:88px;
+    line-height: 35px;
+}
+.header-bottom {
+    height:100px;
+    line-height: 100px;
+}
+.header-top-content {
+    display: flex;
+}
+.header ul {
+    list-style: none;    
+}
+.header li {
+    display: inline-table;        
+}
+.header li+li {
+    margin-left: 20px;
+}
+.header ul li a{
+    color:#D2B48C;
+    font-size: 1.5em;
+    padding-left: 25px;
+}
+.header-top-menu{
+    padding-top: 25px;
+    background-color: #101215;
+    width: 1000px;
+}
+.header-bottom-content {
+    display: flex;
+    justify-content: space-between;
+}
+.header-bottom-name {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.header-bottom-menu {
+    font-size: 1.2em;
+}
+
+.imagesbody{
+    width: 1150px;
+    height: 450px;
+    background-image: url("images/msi.jpg");
+    background-size: cover;
+    background-size: contain;
+    opacity: 0.7;
+}
+.center{
+    width: 900px;
+    height: 300px;
+    position: absolute;
+    padding-top: 60px;
+    padding-left: 130px;
+    top:55px;
+}
+.boxthongtin-top{
+    display: flex;
+}
+.boxthongtin-top ul li{
+    list-style: none;
+
+}
+.boxthongtin-top ul li a{
+    text-decoration: none;
+}
+.boxthongtin-top{
+    column-gap: 110px;
+    padding-top: 20px;
+}
+.boxthongtin-top-1{
+    height: 380px;
+    width: 310px;
+
+}
+.boxthongtin-top-2{
+    height: 380px;
+    width: 310px;
+
+}
+.boxthongtin-top-3{
+    height: 380px;
+    width: 310px;
+
+}
+.tieude ul li a{
+    font-size: 1.4em;
+    font-weight: 900;
+    color: black;
+}
+.noidung ul li a{
+    color: black;
+    font-size: 1.1em;
+}
+.ngay ul li a{
+    color: black;
+}
+.thongtin{
+    padding-top: 10px;;
+}
+.boxthongtin-bottom{
+    display: flex;
+}
+.boxthongtin-bottom ul li{
+    list-style: none;
+
+}
+.boxthongtin-bottom ul li a{
+    text-decoration: none;
+}
+.boxthongtin-bottom{
+    column-gap: 110px;
+    padding-top: 20px;
+}
+.boxthongtin-bottom-1{
+    height: 380px;
+    width: 310px;
+
+}
+.boxthongtin-bottom-2{
+    height: 380px;
+    width: 310px;
+
+}
+.boxthongtin-bottom-3{
+    height: 380px;
+    width: 310px;
+
+}
+.click{
+    padding-left: 500px;
+}
+.end{
+    width: 1150px;
+    height: 100px;
+    background-color: #101215;
+    position: absolute;
+    top:1400px;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    padding-top: 15px;
+}
